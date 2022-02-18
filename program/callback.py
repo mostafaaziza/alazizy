@@ -147,8 +147,6 @@ async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
         f""" »  .القائمة ↤ تظهر لك قائمة التشغيل
 
- »  .تنزيل فيديو يوتيوب + الاسم » تنزيل فيديو من youtube
-
  »  .تحميل صوت + الاسم » تنزيل صوت من youtube
 
 »  .تحميل فيديو + الاسم » تنزيل فيديو من Youtube
