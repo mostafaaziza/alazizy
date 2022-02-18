@@ -161,7 +161,7 @@ async def mute(client, m: Message):
 
 
 @Client.on_message(
-    command(["الغاء كتم", f"unmute@{BOT_USERNAME}", ".الغاء كتم"]) & other_filters
+    command(["اتكلم", f"unmute@{BOT_USERNAME}", ".اتكلم"]) & other_filters
 )
 @authorized_users_only
 async def unmute(client, m: Message):
