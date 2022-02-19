@@ -76,12 +76,12 @@ async def start_(client: Client, message: Message):
                         "• قروب الدعم •", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐚𝐳𝐢𝐳a²¹🐼", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "دبـدو໑بـٰههہ⁽💕🐾₎⇡", url="https://t.me/BANDA2M"
+                        "𝐅𝐫𝐎𝐦 𝑽𝑬𝑵𝑶𝑴", url="https://t.me/V_O_O"
                     )
                 ],
             ]
@@ -91,7 +91,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["المعلومات", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -101,9 +101,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("دبـدو໑بـٰههہ⁽💕🐾₎⇡", url=f"https://t.me/BANDA2M"),
+                InlineKeyboardButton("𝐅𝐫𝐎𝐦 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/V_O_O"),
                 InlineKeyboardButton(
-                    "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐚𝐳𝐢𝐳a²¹🐼", url=f"https://t.me/BANDA1M"
+                    "𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/S_Q_I"
                 ),
             ]
         ]
@@ -117,8 +117,53 @@ async def alive(client: Client, message: Message):
         reply_markup=keyboard,
     )
 
+@Client.on_message(
 
-@Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
+    command(["سورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+
+)
+
+async def alive(client: Client, message: Message):
+
+    current_time = datetime.utcnow()
+
+    uptime_sec = (current_time - START_TIME).total_seconds()
+
+    uptime = await _human_time_duration(int(uptime_sec))
+
+    keyboard = InlineKeyboardMarkup(
+
+        [
+
+            [
+
+                InlineKeyboardButton("المطور", url=f"https://t.me/V_O_O"),
+
+                InlineKeyboardButton(
+
+                    "قناة السورس", url=f"https://t.me/S_Q_I"
+
+                ),
+
+            ]
+
+        ]
+
+    )
+
+    alive = f"مرحبآ  {message.from_user.mention()}, انا {BOT_NAME}\n\n✨ البوت يعمل بشكل طبيعي\n🍀 انا : [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ اصدار Bot : v{version}\n🍀 اصدار Pyrogram : {pyrover}\n✨ اصدار Python: {python_version}\n🍀 اصدار PyTgCalls : {pytover.version}\n✨ وقت التشغيل: {uptime}\n\nاهلا بك في سورس فينوم "
+
+    await message.reply_photo(
+
+        photo=f"{ALIVE_IMG}",
+
+        caption=alive,
+
+        reply_markup=keyboard,
+
+    )
+
+@Client.on_message(command(["البنق", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
