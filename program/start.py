@@ -91,7 +91,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["المعلومات", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["السورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -101,9 +101,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𝐅𝐫𝐎𝐦 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/V_O_O"),
+                InlineKeyboardButton("المطور", url=f"https://t.me/V_O_O"),
                 InlineKeyboardButton(
-                    "𝐬𝐨𝐮𝐫𝐜𝐞 𝑽𝑬𝑵𝑶𝑴", url=f"https://t.me/S_Q_I"
+                    "قناة السورس", url=f"https://t.me/S_Q_I"
                 ),
             ]
         ]
