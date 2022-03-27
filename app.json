@@ -1,15 +1,15 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/19d68d531fd2f6f96e368.jpg",
+    "logo": "https://telegra.ph/file/836d7380bba52ca5c38d7.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/BANDA1M",
-    "repository": "https://github.com/mostafaaziza/alazizy",
+    "website": "https://t.me/VFF35",
+    "repository": "https://github.com/VFF35/alazizy",
     "success_url": "https://t.me/hama_refaat",
     "env": {
         "API_ID": {
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "BANDA2M"
+            "value": "faqek"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "BANDA1M"
+            "value": "VFF35"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "php_7"
+            "value": "QABNADLIB"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "mostafa_alazizy..🎶"
+            "value": "𝐒𝐎𝗨𝐑𝐂𝐄 𝐂𝐎𝐁𝐑𝐀"
         }
     },
     "addons": [],
