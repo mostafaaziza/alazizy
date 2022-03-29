@@ -1,15 +1,15 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/836d7380bba52ca5c38d7.jpg",
+    "logo": "https://telegra.ph/file/4b5e7e9e861cf34b99bdc.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/VFF35",
-    "repository": "https://github.com/VFF35/alazizy",
+    "website": "https://t.me/X_A_R0",
+    "repository": "https://github.com/Ammar5002/alazizy",
     "success_url": "https://t.me/hama_refaat",
     "env": {
         "API_ID": {
@@ -29,7 +29,7 @@
             "required": true
         },
         "BOT_NAME": {
-            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "description": "قم بوضع اسم بوتك هنا",
             "required": true
         },
         "ASSISTANT_NAME": {
@@ -37,7 +37,7 @@
             "required": true
         },
         "SESSION_NAME": {
-            "description": "قم بوضع كود تيرمكس هنا",
+            "description": "قم بوضع كود البيروجرام هنا",
             "required": true
         },
         "SUDO_USERS": {
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "faqek"
+            "value": "X_A_R4"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "VFF35"
+            "value": "X_A_R0"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "QABNADLIB"
+            "value": "X_A_R3"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "𝐒𝐎𝗨𝐑𝐂𝐄 𝐂𝐎𝐁𝐑𝐀"
+            "value": "˛ 𝙈𝘂𝘀𝗶𝘾 𝙁𝗶𝗼𝙉𝗮 ."
         }
     },
     "addons": [],
