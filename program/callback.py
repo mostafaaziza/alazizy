@@ -37,15 +37,15 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• جروب الدعم •", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "• قروب الدعم •", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐚𝐳𝐢𝐳a²¹🐼", url=f"https://t.me/BANDA1M"
+                        "• قناة السورس •", url=f"https://t.me/X_A_R0"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "دبـدو໑بـٰههہ⁽💕🐾₎⇡", url="https://t.me/BANDA2M"
+                        "• لتنصيب بوت •", url="https://t.me/X_A_R3"
                     )
                 ],
             ]
@@ -69,7 +69,7 @@ async def cbguides(_, query: CallbackQuery):
 
  💡 إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا منن خلال قروب الدعم الخاصة بي هنا ↤ @{GROUP_SUPPORT}
 
- ⚡ ادارة سورس العزايزي @BANDA1M
+ ⚡ ادارة سورس ايس @X_A_R0
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -114,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /pause ايقاف التشغيل موقتآ
 » /vmute لكتم البوت
 » /vunmute لرفع الكتم عن البوت
- ⚡ ادارة سورس العزايزي @php_7
+ ⚡ ادارة سورس ايس @X_A_R0
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 الـتـالـي", callback_data="cbadmin")]]
@@ -134,7 +134,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotleave لطرد حساب المساعد 
  » /ping - إظهار حالة البوت بينغ
  » /alive  إظهار معلومات البوت  (في المجموعة)
-  ⚡ ادارة سورس العزايزي @php_7
+  ⚡ ادارة سورس ايس @X_A_R0
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -153,7 +153,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart - restart your bot
 » /leaveall - order userbot to leave from all group
 
- ⚡ ادارة سورس العزايزي @php_7
+ ⚡ ادارة سورس ايس @X_A_R1
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
